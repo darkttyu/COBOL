@@ -43,3 +43,14 @@ Local-Storage Section - similar to the working-storage with its difference is th
 Linkage Section - used to describe the data names that are receivd from an external program.
 
 4. _**Procedure Division**_ - used to include the logic of the program. This consists of executable statements using defined variables in the data division. The last statement to be executed is either STOP RUN which is used in the calling programs or EXIT PROGRAM which is used in the called programs.
+
+# COBOL Coding Form
+
+COBOL is written in an 80-column format in which every character represents one column.
+
+Columns 1-3 are for page numbers while Columns 4-6 are for line numbers. Columns 1-6 is known as the **Sequence Area**. In the early days of COBOL when writing programs was done in paper, if the paper is misplaced, then there would be a difficulty of locating its part. It is for this reason that it opted to create a column for the line and page.
+
+Typing page and line number today is OPTIONAL (kung di ko pa mababasa to di pa ko titigil sa paglalagay nito sa samples????) in writing COBOL programs since the days when programs were punched on cards are over..
+
+Column 7 is known as the Indicator Area and is used for special purposes. A specific entry in this column has a special meaning. Special characters include:
+
