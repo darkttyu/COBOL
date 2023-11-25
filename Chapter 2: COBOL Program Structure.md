@@ -17,3 +17,5 @@ Program -> Divisions -> Sections -> Paragraphs -> Sentences -> Statements -> Cha
 1. Identification Division - the first and ONLY mandataroy division of every COBOL Program in which the compiler uses this division to identify the program.
 
 In this division, the PROGRAM-ID specifies the program name that can only have 1-30 characters and is the only mandatory paragraph.
+
+2. Environment Division - used to specify INPUT and OUTPUT Files of the Program. This division also describes the specific computer equipment and device that will be used by the program.
