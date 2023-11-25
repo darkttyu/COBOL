@@ -84,15 +84,19 @@ FILE-CONTROL
 
 COBOL is written in an 80-column format in which every character represents one column.
 
-Columns 1-3 are for page numbers while Columns 4-6 are for line numbers. Columns 1-6 is known as the **Sequence Area**. In the early days of COBOL when writing programs was done in paper, if the paper is misplaced, then there would be a difficulty of locating its part. It is for this reason that it opted to create a column for the line and page.
+Columns 1-3 are for page numbers while Columns 4-6 are for line numbers.
+
+Columns 1-6 is known as the **Sequence Area**. In the early days of COBOL when writing programs was done in paper, if the paper is misplaced, then there would be a difficulty of locating its part. It is for this reason that it opted to create a column for the line and page.
 
 Typing page and line number today is OPTIONAL (kung di ko pa mababasa to di pa ko titigil sa paglalagay nito sa samples????) in writing COBOL programs since the days when programs were punched on cards are over..
 
 Column 7 is known as the Indicator Area and is used for special purposes. A specific entry in this column has a special meaning. Special characters include:
 
-* (asterisk) - indicates a COMMENT statement. This line provides remarks for the program and are ignored by the COBOL Compiler.
-/ - makes the computer go to the top of a new page before priting a report.
-- - indeicates that the line is a continuation of the preceding line.
+Asterisk - indicates a COMMENT statement. This line provides remarks for the program and are ignored by the COBOL Compiler.
+
+Forward Slash - makes the computer go to the top of a new page before priting a report.
+
+Hyphen - indeicates that the line is a continuation of the preceding line.
  
 Columns 8-72 are known as the program area. Column 8 which represents Area A, this is the stater of Division, Section Heading, File Description Heading, Records Heading and Procedure Heading.
 
