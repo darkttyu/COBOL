@@ -18,4 +18,6 @@ Program -> Divisions -> Sections -> Paragraphs -> Sentences -> Statements -> Cha
 
 In this division, the PROGRAM-ID specifies the program name that can only have 1-30 characters and is the only mandatory paragraph.
 
-2. Environment Division - used to specify INPUT and OUTPUT Files of the Program. This division also describes the specific computer equipment and device that will be used by the program.
+2. Environment Division - used to specify INPUT and OUTPUT Files of the Program. This division also describes the specific computer equipment and device that will be used by the program. This division consists of 2 sections.
+
+Configuration Section - provides info about the system on which the program is written and executed. It consists of two paragraphs.
