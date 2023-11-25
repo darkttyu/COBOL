@@ -70,7 +70,7 @@ Sections and Paragraphs that have user-defined names
 
 (Under Identification)
 
-PROGRAM-ID, AUTHOR, INSTALLATION, DATE-WRITTEN, DATE-COMPILED, SECURITY
+PROGRAM-ID, AUTHOR, INSTALLATION, DATE-WRITTEN, DATE-COMPILED, SECURITY, REMARKS
 
 (Under Environment-Configuration)
 
