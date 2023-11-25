@@ -14,10 +14,20 @@ Program -> Divisions -> Sections -> Paragraphs -> Sentences -> Statements -> Cha
 
 # Divisions of a COBOL Program
 
-1. Identification Division - the first and ONLY mandataroy division of every COBOL Program in which the compiler uses this division to identify the program.
+1. _**Identification Division**_ - the first and ONLY mandataroy division of every COBOL Program in which the compiler uses this division to identify the program.
 
 In this division, the PROGRAM-ID specifies the program name that can only have 1-30 characters and is the only mandatory paragraph.
 
-2. Environment Division - used to specify INPUT and OUTPUT Files of the Program. This division also describes the specific computer equipment and device that will be used by the program. This division consists of 2 sections.
+2. _**Environment Division**_- used to specify INPUT and OUTPUT Files of the Program. This division also describes the specific computer equipment and device that will be used by the program. This division consists of 2 sections.
 
-Configuration Section - provides info about the system on which the program is written and executed. It consists of two paragraphs.
+**Configuration Section** - provides info about the system on which the program is written and executed. It consists of two paragraphs.
+
+Source Computer - system used to compile the program.
+
+Object Computer - system used to executed the program.
+
+**Input-Output Section** - provides info about the files to be used in the program. Also consists of 2 paragraphs.
+
+File Control - provides info of external data sets used in the program.
+
+I-O control - provides info of files used in the program.
