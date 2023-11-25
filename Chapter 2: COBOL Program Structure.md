@@ -54,3 +54,13 @@ Typing page and line number today is OPTIONAL (kung di ko pa mababasa to di pa k
 
 Column 7 is known as the Indicator Area and is used for special purposes. A specific entry in this column has a special meaning. Special characters include:
 
+* (asterisk) - indicates a COMMENT statement. This line provides remarks for the program and are ignored by the COBOL Compiler.
+/ - makes the computer go to the top of a new page before priting a report.
+- - indeicates that the line is a continuation of the preceding line.
+ 
+Columns 8-72 are known as the program area. Column 8 which represents Area A, this is the stater of Division, Section Heading, File Description Heading, Records Heading and Procedure Heading.
+
+Column 12 represents Area B in which this starts the Program Statement. REMEMBER that every line of a sample program ends with a period. (lahat need tuldukan pati relasyon nyo, eme)
+
+Columns 73 - 80 is the area in which it is prohibited to write a program statement because it will be just ignored by COBOL. These were used when programs when punched on cards (ewanq na lang ngayon try nyo), in order for the cards of different programs not to get mixed up.
+
