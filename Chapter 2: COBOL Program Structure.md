@@ -70,7 +70,7 @@ Sections and Paragraphs that have user-defined names
 
 (Under Identification)
 
-PROGRAM-ID, AUTHOR, INSTALLATION, DATE-WRITTEN, DATE-COMPILED, SECURITY, REMARKS
+PROGRAM-ID, AUTHOR, INSTALLATION, DATE-WRITTEN, DATE-COMPILED, SECURITY, REMARKS (PROGRAM-ID is the only required bc it is the only executable part)
 
 (Under Environment-Configuration)
 
@@ -100,7 +100,7 @@ Hyphen - indeicates that the line is a continuation of the preceding line.
  
 Columns 8-72 are known as the program area. Column 8 which represents Area A, this is the stater of Division, Section Heading, File Description Heading, Records Heading and Procedure Heading.
 
-Column 12 represents Area B in which this starts the Program Statement. REMEMBER that every line of a sample program ends with a period. (lahat need tuldukan pati relasyon nyo, eme)
+Column 12 represents Area B in which this starts the Program Statement. This is also the Area in which comments are found. REMEMBER that every line of a sample program ends with a period. (lahat need tuldukan pati relasyon nyo, eme)
 
 Columns 73 - 80 is the area in which it is prohibited to write a program statement because it will be just ignored by COBOL. These were used when programs when punched on cards (ewanq na lang ngayon try nyo), in order for the cards of different programs not to get mixed up.
 
