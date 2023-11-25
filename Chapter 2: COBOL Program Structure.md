@@ -31,3 +31,15 @@ Object Computer - system used to executed the program.
 File Control - provides info of external data sets used in the program.
 
 I-O control - provides info of files used in the program.
+
+3. _**Data Division**_ - used to define the variables used in the program. This division consists of four sections.
+
+File Section - used to define the record structure of the file.
+
+Working-Storage Section - used to declared temporary variables and file structures which are used in the program.
+
+Local-Storage Section - similar to the working-storage with its difference is that the variables will be allocated and initialized every time a program starts execution.
+
+Linkage Section - used to describe the data names that are receivd from an external program.
+
+4. _**Procedure Division**_ - used to include the logic of the program. This consists of executable statements using defined variables in the data division. The last statement to be executed is either STOP RUN which is used in the calling programs or EXIT PROGRAM which is used in the called programs.
