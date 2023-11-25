@@ -44,6 +44,42 @@ Linkage Section - used to describe the data names that are receivd from an exter
 
 4. _**Procedure Division**_ - used to include the logic of the program. This consists of executable statements using defined variables in the data division. The last statement to be executed is either STOP RUN which is used in the calling programs or EXIT PROGRAM which is used in the called programs.
 
+# Hierarchical Structure of a COBOL Program
+
+COBOL Programs are divided into major and minor parts namely Division, Sections, ad Paragraphs. 
+
+**Divisions**
+
+IDENTIFICATION, ENVIRONMENT, DATA, PROCEDURE
+
+**Sections**
+
+(Under Environment)
+
+CONFIGURATION, INPUT-OUTPUT
+
+(Under Data)
+
+FILE, WORKING STORAGE
+
+(Under Procedure)
+
+Sections and Paragraphs that have user-defined names
+
+**Paragraphs**
+
+(Under Identification)
+
+PROGRAM-ID, AUTHOR, INSTALLATION, DATE-WRITTEN, DATE-COMPILED, SECURITY
+
+(Under Environment-Configuration)
+
+SOURCE-COMPUTER, OBJECT COMPUTER, SPECIAL NAMES
+
+(Under Environment I-O)
+
+FILE-CONTROL
+
 # COBOL Coding Form
 
 COBOL is written in an 80-column format in which every character represents one column.
