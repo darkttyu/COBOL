@@ -1,16 +1,24 @@
 # The Structure of a COBOL Program Consists of Divisions as shown below
 
-Program -> Divisions -> Sections -> Paragraphs -> Sentences -> Statements -> Characters
+|Structure from Top to Bottom         |
+|-------------
+|Programs    |
+|Divisions   |
+|Sections    |
+|Paragraphs  |
+|Sentences   |
+|Statements  |
+|Characters  |
 
-**Sections** - a collection of paragraphs
+> Sections- a collection of paragraphs
 
-**Paragraphs** - a subdivision of a section / division that can be either user-defined or a predefined name followed by a period and consists of zero or more sentences / entries.
+> Paragraphs - a subdivision of a section / division that can be either user-defined or a predefined name followed by a period and consists of zero or more sentences / entries.
 
-**Sentences** - combination of one or more statements and appear ONLY in the **_Procedure Divsion_** and must end with a period.
+> Sentences - combination of one or more statements and appear ONLY in the **_Procedure Divsion_** and must end with a period.
 
-**Statements** - meaniningful cobol statements that perform some processing.
+> Statements - meaniningful cobol statements that perform some processing.
 
-**Characters** - lowest in the hierarchy and can not be divisible.
+> Characters - lowest in the hierarchy and can not be divisible.
 
 # Divisions of a COBOL Program
 
@@ -20,17 +28,23 @@ In this division, the PROGRAM-ID specifies the program name that can only have 1
 
 2. _**Environment Division**_- used to specify INPUT and OUTPUT Files of the Program. This division also describes the specific computer equipment and device that will be used by the program. This division consists of 2 sections.
 
-**Configuration Section** - provides info about the system on which the program is written and executed. It consists of two paragraphs.
+<details>
+  <summary> Configuration Section </summary>  
+ > the configuration section provides info about the system on which the program is written and executed. It consists of two paragraphs.
 
 Source Computer - system used to compile the program.
 
 Object Computer - system used to executed the program.
+</details>
 
-**Input-Output Section** - provides info about the files to be used in the program. Also consists of 2 paragraphs.
+<details> 
+ <summary> Input-Output Section</summary>  
+ > provides info about the files to be used in the program. Also consists of 2 paragraphs.
 
 File Control - provides info of external data sets used in the program.
 
 I-O control - provides info of files used in the program.
+</details>
 
 3. _**Data Division**_ - used to define the variables used in the program. This division consists of four sections.
 
