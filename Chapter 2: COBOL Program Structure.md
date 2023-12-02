@@ -26,6 +26,19 @@
 
 In this division, the PROGRAM-ID specifies the program name that can only have 1-30 characters and is the only mandatory paragraph.
 
+<details> 
+  <summary> Syntax of Identification Division</summary>  
+	
+	IDENTIFICATION DIVISION.
+ 	PROGRAM-ID. PROGRAM_NAME.
+	[AUTHOR. (COMMENT-ENTRY...)]
+ 	[INSTALLATION. (COMMENT)]
+	[DATE-WRITTEN. (COMMENT)]
+ 	[DATE-COMPILED. (COMMENT)]
+	[SECURITY. (COMMENT)]
+ 	[REMARKS. (COMMENT)]
+</details>  
+
 2. _**Environment Division**_- used to specify INPUT and OUTPUT Files of the Program. This division also describes the specific computer equipment and device that will be used by the program. This division consists of 2 sections.
 
 <details>
