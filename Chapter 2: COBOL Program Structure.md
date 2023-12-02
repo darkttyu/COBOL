@@ -30,6 +30,7 @@ In this division, the PROGRAM-ID specifies the program name that can only have 1
 
 <details>
   <summary> Configuration Section </summary>  
+  
  > the configuration section provides info about the system on which the program is written and executed. It consists of two paragraphs.
 
 Source Computer - system used to compile the program.
@@ -39,6 +40,7 @@ Object Computer - system used to executed the program.
 
 <details> 
  <summary> Input-Output Section</summary>  
+  
  > provides info about the files to be used in the program. Also consists of 2 paragraphs.
 
 File Control - provides info of external data sets used in the program.
