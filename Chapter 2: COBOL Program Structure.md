@@ -49,6 +49,13 @@ In this division, the PROGRAM-ID specifies the program name that can only have 1
 Source Computer - system used to compile the program.
 
 Object Computer - system used to executed the program.
+
+Syntax:  
+	
+ 	[CONFIGURATION SECTION.
+  	SOURCE-COMPUTEr. {COMPUTER-NAME}
+   	OBJECT-COMPUTER. {COMPUTER-NAME}
+    	SPECIAL-NAMES. {COMPUTER-NAME}
 </details>
 
 <details> 
