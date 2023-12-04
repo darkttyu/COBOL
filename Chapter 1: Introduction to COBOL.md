@@ -1,4 +1,3 @@
-# Hi. Sana may matutunan kau :*
 COBOL - known as "Common Business Oriented Language" is a programming language
 that was developed in the late 1950s (1959) by CODASYL. 
 
